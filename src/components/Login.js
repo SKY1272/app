@@ -38,7 +38,7 @@ alert("Invalid password or Username");
             <form onSubmit={submitHandler}>
                     <h1>Login Page</h1>
                 <div>
-                <label htmlFor='username'>UserName:</label>
+                <label htmlFor='username'>Username:</label>
 
                <input type="text" name="username" 
                 value={value.name} onChange={changeHandler}

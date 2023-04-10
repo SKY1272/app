@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import Card from "./Card";
 import InfiniteScroll from "react-infinite-scroll-component";
 const listBatchSize = 20;
-const delayInMs = 1000;
+const delayInMs = 5000;
 const listLimitLen = 500;
 
 const Home=()=>{
